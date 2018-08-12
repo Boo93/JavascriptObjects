@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body{
@@ -15,3 +15,30 @@ header{
     background-color: #333;
     color: cornflowerblue;
 }
+
+
+
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container{border: 1px solid green;}
+.wrapper{
+    /* border: 1px solid red; */
+    position: relative;
+    margin: 20px auto;
+}
+
+.slides{
+    display: none;
+    transition: all 2s ease-in;
+    -webkit-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -ms-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+}
+/* .img1{z-index: 3;}
+.img2{z-index: 2;}
+.img3{z-index: 1;} */
